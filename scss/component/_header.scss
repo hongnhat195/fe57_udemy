@@ -1,0 +1,23 @@
+.header_left {
+    display: flex;
+    align-items: center;
+    a {
+        flex-grow: 1;
+    }
+    .categories {
+        flex-grow: 1;
+    }
+    @include search();
+}
+
+.header_right {
+    .btn-login {
+        border: 1px solid black;
+        color: #686f7a;
+        // border-radius: 0%;
+        &:hover {
+            color: black;
+            font-weight: 600;
+        }
+    }
+}

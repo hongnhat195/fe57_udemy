@@ -1,0 +1,25 @@
+@mixin search {
+    form {
+        flex-grow: 5;
+        .input-group {
+            border: 1px solid black;
+        }
+        input {
+            border: transparent;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        i {
+            padding: 11px;
+            color: $color-primary;
+            background-color: $color-second;
+            transition: all 0.5s;
+            cursor: pointer;
+            &:hover {
+                background-color: $color-primary;
+                color: $color-second;
+            }
+        }
+    }
+}

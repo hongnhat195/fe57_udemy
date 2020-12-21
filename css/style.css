@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left a {
+  flex-grow: 1;
+}
+
+.header_left .categories {
+  flex-grow: 1;
+}
+
+.header_left form {
+  flex-grow: 5;
+}
+
+.header_left form .input-group {
+  border: 1px solid black;
+}
+
+.header_left form input {
+  border: transparent;
+}
+
+.header_left form input:focus {
+  box-shadow: none;
+}
+
+.header_left form i {
+  padding: 11px;
+  color: red;
+  background-color: white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header_left form i:hover {
+  background-color: red;
+  color: white;
+}
+
+.header_right .btn-login {
+  border: 1px solid black;
+  color: #686f7a;
+}
+
+.header_right .btn-login:hover {
+  color: black;
+  font-weight: 600;
+}
+
+.carousel {
+  background-image: url(/udemy_img/img/cover.jpg);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.carousel form {
+  flex-grow: 5;
+}
+
+.carousel form .input-group {
+  border: 1px solid black;
+}
+
+.carousel form input {
+  border: transparent;
+}
+
+.carousel form input:focus {
+  box-shadow: none;
+}
+
+.carousel form i {
+  padding: 11px;
+  color: red;
+  background-color: white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.carousel form i:hover {
+  background-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
